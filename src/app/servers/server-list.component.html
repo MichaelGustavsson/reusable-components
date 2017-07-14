@@ -1,0 +1,6 @@
+<h2>Servers</h2>
+<div *ngIf="servers">
+  <div *ngFor="let server of servers">
+    <server-info [server]="server"></server-info>
+  </div>
+</div>
